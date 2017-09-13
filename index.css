@@ -90,3 +90,42 @@ a.inactive {
    cursor: default;
    color: gray;
 }
+
+table.hotel-list {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: left;
+  border-spacing: 0px;
+}
+
+table.hotel-list > tbody > tr:nth-child(2n) {
+  /*background-color: #E0E0E0;*/
+}
+
+table.hotel-list > tbody > tr > td {
+  padding: 10px 0px 10px 10px;
+}
+
+table.hotel-list > tbody > tr:hover {
+  background-color: #F6F6F6;
+}
+
+table.hotel-list > thead > tr > th {
+  padding: 10px 0px 5px 10px;
+  border-bottom: 1px solid black;
+}
+
+/*
+table.hotel-list td:first-child {
+  width: 50%;
+}
+
+table.hotel-list td:last-child {
+  width: 25%;
+}
+*/
+
+table.hotel-list td {
+  vertical-align: top;
+}
