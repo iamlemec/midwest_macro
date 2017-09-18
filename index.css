@@ -6,6 +6,10 @@ html {
     outline: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: #337ab7;
