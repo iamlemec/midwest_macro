@@ -23,7 +23,7 @@ a:visited {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
-    width: 600px;
+    width: 700px;
 }
 
 #header {
@@ -95,6 +95,8 @@ a.inactive {
    color: gray;
 }
 
+/* index: hotel-list */
+
 table.hotel-list {
   width: 100%;
   font-size: 16px;
@@ -120,16 +122,23 @@ table.hotel-list > thead > tr > th {
   border-bottom: 1px solid black;
 }
 
-/*
-table.hotel-list td:first-child {
-  width: 50%;
-}
-
-table.hotel-list td:last-child {
-  width: 25%;
-}
-*/
-
 table.hotel-list td {
   vertical-align: top;
+}
+
+/* agenda: schedule */
+
+table.schedule > tbody > tr > th {
+  padding: 10px 0px 5px 10px;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+table.schedule > tbody > tr > td:first-child {
+    width: 25%;
+}
+
+table.schedule > tbody > tr > td {
+    padding: 5px 0px 0px 0px;
+    vertical-align: top;
 }
